@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Cuurency Converter</h1>
+    </header>
+    <div class="input-box">
+        <input class="input" type="text" placeholder="Enter your amount">
+        <i class="search-btn fa-solid fa-magnifying-glass"></i>
+    </div>
+
+    <div class="convert-box">
+
+        <div class="section">
+
+            <div class="from-box">
+                <img width="100px" height="80px" class="from-img">
+                <p></p>
+
+            </div>
+
+            <div class="select-part">
+                <label for="from-select">From:</label>
+                <select class="select-tag" id="from-select" class="dropdown">
+                </select>
+            </div>
+
+            <div id="fromCurrency"></div>
+        </div>
+
+        <div class="covert-icon-main">
+            <i class="covert-icon fa-solid fa-arrow-right-arrow-left"></i>
+        </div>
+
+        <div class="section">
+
+            <div class="to-box">
+                <img width="100px" height="80px" class="to-img">
+                <p></p>
+
+            </div>
+
+            <div class="select-part">
+                <label for="to-select">To:</label>
+                <select class="select-tag" id="to-select" class="dropdown">
+                </select>
+            </div>
+
+            <div id="toCurrency"></div>
+
+
+        </div>
+
+    </div>
+
+    <div class="result"></div>
+
+    <div class="main-result"></div>
+
+    <div class="get-btn">Get Exchange Rate</div>
+
+    <script src="countrylist.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
