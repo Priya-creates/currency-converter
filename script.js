@@ -3,7 +3,7 @@ let select1 = document.getElementById("from-select");
 
 let select2 = document.getElementById("to-select");
 let baseUrl =
-  "https://v6.exchangerate-api.com/v6/69bd6f77ec5ba01b73fff144/latest/";
+  "https://v6.exchangerate-api.com/v6/<add your api key>/latest/";
 let getBtn = document.querySelector(".get-btn");
 let result = document.querySelector(".result");
 let mainResult = document.querySelector(".main-result");
